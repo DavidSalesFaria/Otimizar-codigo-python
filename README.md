@@ -5,4 +5,8 @@ Aprenda mais no [tutorial](https://docs.python.org/pt-br/3/tutorial/controlflow.
 
 Tutoriais Disponíveis:
 
-* [Comandos break, continue e cláusula else](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Comando%20break%20e%20clausula%20else.md)
+- [x] [Comandos break e cláusula else](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Comando%20break%20e%20clausula%20else.md)
+- [ ] Operador ternário python
+- [ ] Listas, técnicas e ferramentas
+- [ ] Dicionários, técnicas e ferramentas
+- [ ] Funções, técnicas e ferramentas
