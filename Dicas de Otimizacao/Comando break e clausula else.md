@@ -10,7 +10,7 @@ O comando **break**, encerra o laço de repetição atual mais interno. Podendo 
 
 Podemos usa-lo quando queremos interromper um loop no momento em que uma determinada condição for atendida.
 
-Exemplo de laço para buscar um número específico em uma lista:
+1. Exemplo de laço para buscar um número específico em uma lista:
 
 ```
 lista = [3, 2, 29, 88, 20, 90, 77, 20]
@@ -21,9 +21,9 @@ for num in lista:
         break
 ```
 
-Observe que sem o break, o laço iria iterar sobre a lista inteira. Isso seria inviável para uma lista muito grande.
+Observe que sem o **break**, o laço iria iterar sobre a lista inteira. Isso seria inviável para uma lista muito grande.
 
-## Uso do break com clausula else
+## Uso do break com a cláusula else
 
 Os laços podem ter uma cláusula **else** que é executada sempre que o laço itera até o fim, sem ser interrompido. Para o **for**, quando os valores do iterável acabam, já para o **while**, quando a condição se torna falsa.
 
@@ -36,7 +36,7 @@ Veremos 2 exemplos, de laços, para validar se uma lista de números possui apen
 ```
 lista = [10, 20, 8, 8, 6, 30, 7, 90]
 
-# Inicializamos uma flag com falor True
+# Inicializamos uma flag com valor True
 ok = True
 
 for num in lista:
@@ -47,7 +47,7 @@ for num in lista:
 
 
 # Printa que todos os valores são
-# verdadeiros apenas se o valor da flag for True:
+# pares apenas se o valor da flag for True:
 if ok == True:
     print('Todos os valore são pares')
 
