@@ -32,6 +32,6 @@ for num in lista1:
         # Interrompe o loop
         break
 
-# Se o loop foi concluido até o fim com sucesso:
+# Se o laço foi concluido até o fim:
 else:
     print('Todos os números são pares')
