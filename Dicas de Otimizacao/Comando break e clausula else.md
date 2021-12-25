@@ -70,6 +70,6 @@ else:
 
 ```
 
-Podemos observar que no 2º usamos menos linhas de código que no 1º. Também obtemos um desempenho melhor. [Clique aqui]() para aprender a medir o tempo de execução do seu código.
+Podemos observar que no 2º usamos menos linhas de código que no 1º. Também obtemos um desempenho melhor. [Clique aqui](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Medir%20o%20tempo%20de%20execucao%20do%20seu%20codigo.md) para aprender a medir o tempo de execução do seu código.
 
 Veja mais informações sobre o comando **break** e a cláusula **else** no [tutorial do python](https://docs.python.org/pt-br/3/tutorial/controlflow.html#:~:text=4.4.%20Comandos%20break%20e%20continue%2C%20e%20cl%C3%A1usula%20else%2C%20nos%20la%C3%A7os%20de%20repeti%C3%A7%C3%A3o)
