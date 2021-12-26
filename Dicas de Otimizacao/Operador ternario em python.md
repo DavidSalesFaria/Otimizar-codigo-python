@@ -52,7 +52,7 @@ def ganhou_bonus(vendas, meta):
 Agora veremos uma função com uma Expressão Condicional para substituir essas 4 linhas de código.
 
 Sintaxe:
-<font color ='yellow'><expressão booleana></font> <font color ='blue'>or</font> <font color ='greenli'><expressão></font>
+<font color ='f564f'><expressão booleana></font> <font color ='blue'>or</font> <font color ='greenli'><expressão></font>
 
 É avaliado se a expressão booleana é verdadeira, e se for, retorna True, caso não, retorna a 2ª Expressão
 
