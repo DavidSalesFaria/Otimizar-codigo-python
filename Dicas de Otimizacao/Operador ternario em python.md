@@ -1,6 +1,6 @@
 # Operadores ternários em python
 
-Diferentemente de outras linguagens, no python essa funcionalidade é chamada de Expressão Condicional. Este recurso, em alguns casos, pode ser usado para substituir uma Estrutura Condicional if ou if-else, reduzindo assim, o número de linhas do nosso código e o simplificando.
+Diferentemente de outras linguagens, no python essa funcionalidade é chamada de Expressão Condicional. Este recurso, em alguns casos, pode ser usado para substituir uma Estrutura Condicional **if** ou **if-else**, reduzindo assim, o número de linhas do nosso código e o simplificando.
 
 ## Estrutura Condicional x Expressão Condicional
 
@@ -25,7 +25,7 @@ else:
 Agora vamos substituir esse código  de 6 linhas por um operador ternário:
 
 Sintaxe:
-<font color ='greenli'><expressão1></font> <font color ='blue'>if</font> <font color ='violet'><condição></font> <font color ='blue'>else</font> <font color ='greenli'><expressão2></font>
+<expressão1> if <condição>  else <expressão2>
 
 Primeiramente é avaliada a condição, e se for verdadeira, é executada a 1ª expressão, senão, será executada a 2ª expressão.
 
@@ -38,7 +38,7 @@ Note que reduzimos nosso código em 5 linhas.
 
 ## Expressão Condicional (Casos de "ou"/"e")
 
-Podemos usar uma Expressão Condicional que use os operadores <font color ='blue'>end</font> e <font color ='blue'>or</font>.
+Podemos usar uma Expressão Condicional que use os operadores **end** e **or**.
 
 Vamos criar uma função  ganhou_bonus() que retorna True caso o funcionário tenha batido a méta (o funcionário recebe bônus caso bata a méta), senão, retona quantas unidades faltavem para bater a  meta e ganhar o bônus. Caso não conheça funções leia o ~~tutorial sobre funções~~ deste repositório.
 
@@ -52,11 +52,11 @@ def ganhou_bonus(vendas, meta):
 Agora veremos uma função com uma Expressão Condicional para substituir essas 4 linhas de código.
 
 Sintaxe:
-<font color ='f564f'><expressão booleana></font> <font color ='blue'>or</font> <font color ='greenli'><expressão></font>
+<expressão booleana> or <expressão>
 
 É avaliado se a expressão booleana é verdadeira, e se for, retorna True, caso não, retorna a 2ª Expressão
 
-Experimente usar end no lugar de or e veja o que acontece.
+Experimente usar **end** no lugar de **or** e veja o que acontece.
 
 ```python
 def ganhou_bonus(vendas, meta):
