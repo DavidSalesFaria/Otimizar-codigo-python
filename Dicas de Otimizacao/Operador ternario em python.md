@@ -25,7 +25,7 @@ else:
 Agora vamos substituir esse código  de 6 linhas por um operador ternário:
 
 Sintaxe:
-<font color ='greenli'><expressão1></font> <font color ='blue'>if</font> <font color ='violet'><condição></font> <font color ='blue'>else</font> <font color ='greenli'><expressão2></font>
+<font color ='green'><expressão1></font> <font color ='blue'>if</font> <font color ='violet'><condição></font> <font color ='blue'>else</font> <font color ='green'><expressão2></font>
 
 Primeiramente é avaliada a condição, e se for verdadeira, é executada a 1ª expressão, senão, será executada a 2ª expressão.
 
