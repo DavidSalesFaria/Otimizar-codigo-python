@@ -7,7 +7,7 @@ Tutoriais Disponíveis:
 
 - [x] [Comandos break e cláusula else](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Comando%20break%20e%20clausula%20else.md)
 - [x] [Medir o tempo de execução do seu código](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Medir%20o%20tempo%20de%20execucao%20do%20seu%20codigo.md)
-- [ ] Operador ternário python
+- [x] Operador ternário python
 - [ ] Listas, técnicas e ferramentas
 - [ ] Dicionários, técnicas e ferramentas
 - [ ] Funções, técnicas e ferramentas
