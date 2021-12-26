@@ -6,7 +6,7 @@ Diferentemente de outras linguagens, no python essa funcionalidade é chamada de
 
 Vejamos um exemplo de uma estrutura condicional com o objetivo de calcular o bônus de um vendedor que receberá 20% de bônus caso tenha batido a meta de vendas, caso não a tenha batido, não recebe bônus:
 
-```
+```python
 # Teste o código na sua máquina, e mude os valores.
 
 meta = 200
@@ -25,11 +25,11 @@ else:
 Agora vamos substituir esse código  de 6 linhas por um operador ternário:
 
 Sintaxe:
-<font color ='greenli'><expressão1></font> <font color ='orange'>if</font> <font color ='violet'><condição></font> <font color ='orange'>else</font> <font color ='greenli'><expressão2></font>
+<font color ='greenli'><expressão1></font> <font color ='blue'>if</font> <font color ='violet'><condição></font> <font color ='blue'>else</font> <font color ='greenli'><expressão2></font>
 
 Primeiramente é avaliada a condição, e se for verdadeira, é executada a 1ª expressão, senão, será executada a 2ª expressão.
 
-```
+```python
 bonus = 0.20 if vendas >= meta else 0
 ```
 
@@ -38,11 +38,11 @@ Note que reduzimos nosso código em 5 linhas.
 
 ## Expressão Condicional (Casos de "ou"/"e")
 
-Podemos usar uma Expressão Condicional que use os operadores <font color ='orange'>end</font> e <font color ='orange'>or</font>.
+Podemos usar uma Expressão Condicional que use os operadores <font color ='blue'>end</font> e <font color ='blue'>or</font>.
 
 Vamos criar uma função  ganhou_bonus() que retorna True caso o funcionário tenha batido a méta (o funcionário recebe bônus caso bata a méta), senão, retona quantas unidades faltavem para bater a  meta e ganhar o bônus. Caso não conheça funções leia o ~~tutorial sobre funções~~ deste repositório.
 
-```
+```python
 def ganhou_bonus(vendas, meta):
     if vendas >= meta:
         return True
@@ -52,14 +52,13 @@ def ganhou_bonus(vendas, meta):
 Agora veremos uma função com uma Expressão Condicional para substituir essas 4 linhas de código.
 
 Sintaxe:
-<font color ='yellow'><expressão booleana></font> <font color ='orange'>or</font> <font color ='greenli'><expressão></font>
+<font color ='yellow'><expressão booleana></font> <font color ='blue'>or</font> <font color ='greenli'><expressão></font>
 
 É avaliado se a expressão booleana é verdadeira, e se for, retorna True, caso não, retorna a 2ª Expressão
 
 Experimente usar end no lugar de or e veja o que acontece.
 
-```
+```python
 def ganhou_bonus(vendas, meta):
     return vendas >= meta or f'Faltavam {metas - vendas} unidades para bater a meta'
 ```
-
