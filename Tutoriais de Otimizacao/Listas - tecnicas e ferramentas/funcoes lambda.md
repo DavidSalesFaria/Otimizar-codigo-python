@@ -92,7 +92,7 @@ for num in numeros:
 # A função map() propaga a função lambda para todos 
 # os valores da lista 'numeros' e retorna um objeto 
 # que pode ser convertido para uma lista.
-dobros = list(map(lambda x: * 2, numeros))
+dobros = list(map(lambda x: x * 2, numeros))
 ```
 
 Nos dois casos a saída será:
