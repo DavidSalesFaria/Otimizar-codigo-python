@@ -65,7 +65,6 @@ Podemos usar as expressões anônimas lambda, como argumentos de funções, apro
 ```python
 numeros = [(3, 'três'), (1, 'um'), (2, 'dois')]
 
-
 numeros.sort(key=lambda num: num[0])
 
 print(numeros)
@@ -90,7 +89,9 @@ for num in numeros:
 
 ### Usando lambda
 ```python
-# A função map() propaga a função lambda para todos os valores da lista 'numeros' e retorna um objeto que pode ser convertido para uma lista.
+# A função map() propaga a função lambda para todos 
+# os valores da lista 'numeros' e retorna um objeto 
+# que pode ser convertido para uma lista.
 dobros = list(map(lambda x: * 2, numeros))
 ```
 
