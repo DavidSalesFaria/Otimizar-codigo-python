@@ -97,5 +97,5 @@ dobros = list(map(lambda x: * 2, numeros))
 
 Nos dois casos a saída será:
 ```
-[6, 10, 16, 44, 2, 12, 21]
+[6, 10, 16, 44, 2, 12, 14]
 ```
