@@ -24,6 +24,7 @@ Sintaxe:
 lambda <argumentos...\>: <expressão>
 
 ```lambda arg1, arg2: arg1 + arg2```
+
 ```python
 somar = lambda n1, n2: n1 + n2
 print(somar(50, 50))
