@@ -31,7 +31,7 @@ Em que **val** é a variável que irá representar cada valor da lista, assim co
 
 ```python
 # Método de lista .exent()
-listaB2.extend([val * 2 for val in listaA])
+listaB.extend([val * 2 for val in listaA])
 ```
 
 Veja ver sobre métodos python [clique aqui](https://docs.python.org/pt-br/3.10/tutorial/datastructures.html#:~:text=list.extend(iterable))
