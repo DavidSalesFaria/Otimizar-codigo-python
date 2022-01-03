@@ -26,4 +26,4 @@ Nos dois casos a saída será:
 [6, 10, 16, 44, 2, 12, 14]
 ```
 
-    Veja mais sobre expressões lambda clicando [aqui]()
+    Veja mais sobre expressões lambda clicando [aqui](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Tutoriais%20de%20Otimizacao/Express%C3%B5es%20lambda.md)
