@@ -15,7 +15,7 @@ for num in numeros:
 
 ### Usando lambda
 ```python
-# A função map() propaga a função lambda para todos 
+# A função map() executa a função lambda em todos 
 # os valores da lista 'numeros' e retorna um objeto 
 # que pode ser convertido para uma lista.
 dobros = list(map(lambda x: x * 2, numeros))
