@@ -15,7 +15,7 @@ Saída:
 [2, 3, 5, 33, 200]
 ```
 
-Mas e se quisermos inserir um valor no início da lista usamos o método .insert(index, value).
+Mas e se quisermos inserir um valor no início da lista usamos o método **.insert(index, value)**
 
 ```python
 lista = [2, 3, 5, 33, 200]
