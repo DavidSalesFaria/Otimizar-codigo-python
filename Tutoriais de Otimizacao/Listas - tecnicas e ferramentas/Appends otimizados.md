@@ -15,7 +15,7 @@ Saída:
 [2, 3, 5, 33, 200]
 ```
 
-Mas e se quisermos inserir um valor no início da lista usamos o método .insert(index, value).
+Mas e se quisermos inserir um valor no início da lista usamos o método **.insert(index, value)**
 
 ```python
 lista = [2, 3, 5, 33, 200]
@@ -37,9 +37,9 @@ Para resolver esse problema e podemos inserir, sem lentidão,  valores em listas
 
 
 
-### list.append x deque.appendleft
+### list.insert x deque.appendleft
 
-Agora, iremos comparar a eficiencia do método de lista **append**, com a do método da classe deque, **appendleft**.
+Agora, iremos comparar a eficiencia do método de lista **insert**, com a do método da classe deque, **appendleft**.
 
 **Primeiro vamos criar uma lista bem grande:**
 
