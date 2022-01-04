@@ -4,7 +4,7 @@ Quando queremos saber quanto tempo um código demora pra rodar, podemos usar a b
 
 
 1. Sintaxe:
-```
+```python
 import time
 
 # Início da contagem
@@ -20,11 +20,33 @@ time = end - start
 
 ```
 
+2. Função test_speed():
+
+Vamos criar uma função para testar o tempo de execução de outras funções
+```python
+def speed_tester(func, *args):
+    """Mede o tempo de que uma função demora para rodar
+        Args:
+            func: [Função]
+            *args: [Argumentos que serão passados para a função]
+    """
+    
+    import time  # lib de tempo
+    
+    start = time.time()
+    func(*args)
+    end = time.time()
+    
+    tempo = end - start
+    
+    return tempo
+```
+
 Vamos ver agora 2 exemplos de funções com o mesmo objetivo que é encontrar e exibir na tela o primeiro número impar que encontrarem, porém, essas duas funções terão diferentes desempenhos.
 
 Criaremos uma lista  de números pares muito grande e iremos inserir um número impar no centro
 
-```
+```python
 # Esta lista possui 5600000 valores.
 numeros = [10, 20, 8, 8, 6, 30, 90]  * 800000
 
@@ -34,7 +56,7 @@ numeros.insert(centro, 7)
 ```
 
 1º Exemplo: Itera sobre uma lista porém não usa o comando **break**:
-```
+```python
 def func1(lista):
    
     for num in lista:
@@ -45,7 +67,7 @@ def func1(lista):
 ```
 
 2º Exemplo: Itera sobre uma lista e usa o **break** quando encontra um número par:
-```
+```python
 def func2(lista):
     
     for num in lista:
@@ -58,7 +80,7 @@ def func2(lista):
 
 Agora vamos ver os resultados:
 
-```
+```python
 time1 = medir_func(func1, numeros)
 time2 = medir_func(func2, numeros)
 
