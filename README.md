@@ -9,6 +9,6 @@ Tutoriais Disponíveis:
 - [x] [Medir o tempo de execução do seu código](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Medir%20o%20tempo%20de%20execucao%20do%20seu%20codigo.md)
 - [x] [Operador ternário python](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Dicas%20de%20Otimizacao/Operador%20ternario%20em%20python.md)
 - [x] [Listas, técnicas e ferramentas](https://github.com/DavidSheltonSF/Otimizar-codigo-python/tree/main/Tutoriais%20de%20Otimizacao/Listas%20-%20tecnicas%20e%20ferramentas)
-- [x] [Expressões lambda]() 
+- [x] [Expressões lambda](https://github.com/DavidSheltonSF/Otimizar-codigo-python/blob/main/Tutoriais%20de%20Otimizacao/Express%C3%B5es%20lambda.md) 
 - [ ] Dicionários, técnicas e ferramentas
 - [ ] Funções, técnicas e ferramentas
