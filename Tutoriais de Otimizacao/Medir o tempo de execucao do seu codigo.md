@@ -24,7 +24,7 @@ time = end - start
 
 Vamos criar uma função para testar o tempo de execução de outras funções
 ```python
-def speed_tester(func, *args):
+def test_speed(func, *args):
     """Mede o tempo de que uma função demora para rodar
         Args:
             func: [Função]
@@ -34,9 +34,11 @@ def speed_tester(func, *args):
     import time  # lib de tempo
     
     start = time.time()
-    func(*args)
+    # Chamada da função e passagem de argumentos
+    func(*args) 
     end = time.time()
     
+    # Tempo de execução
     tempo = end - start
     
     return tempo
@@ -81,8 +83,8 @@ def func2(lista):
 Agora vamos ver os resultados:
 
 ```python
-time1 = medir_func(func1, numeros)
-time2 = medir_func(func2, numeros)
+time1 = test_speed(func1, numeros)
+time2 = test_speed(func2, numeros)
 
 print(f'A execução da func1 durou {time1} segs')
 print(f'A execução da func2 durou {time2} segs')
