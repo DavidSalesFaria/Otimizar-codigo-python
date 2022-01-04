@@ -1,6 +1,6 @@
 # Medir o tempo de execução do seu código
 
-Quando queremos saber quanto tempo um código demora pra rodar, podemos usar a biblioteca **time** que já vem jundo com o python. Essa medição é muito importante quando desejamos saber se uma solução de código é ideal, se é muito lenta ou se pode melhorar.
+Quando queremos saber quanto tempo um código demora para rodar, podemos usar a biblioteca **time**, que já vem jundo com o python. Essa medição é útil quando desejamos saber se uma solução de código é ideal, se é muito lenta ou se pode melhorar.
 
 
 1. Sintaxe:

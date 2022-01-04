@@ -1,8 +1,8 @@
 # Appends Otimizados
 
-Quando estamos aprendendo a programar e aprendemos sobre listas, fazemos vários testes, com os métodos append, insert, pop, etc. 
+Quando estamos aprendendo a programar e estamos aprendendo sobre listas, fazemos vários testes com os métodos append, insert, pop, etc. 
 
-O método **append**, é o mais simples método de adição de valores em listas, ele adiciona um valor no final de uma lista. 
+O método **append**, é o mais simples método de adição de valores em listas. Ele adiciona um valor no final de uma lista. 
 
 ```python
 lista = [2, 3, 5, 33]
@@ -28,12 +28,12 @@ Saída:
 [80, 2, 3, 5, 33]
 ```
 
-Quando inserimos um valor no início de uma lista, todos os outros valores, são movidos para a direita ->, e se removemos, todos sã omovidos para a esquerda <-. Não teremos problemas caso a lista contenha poucos valores, porém, se fizermos isso em uma lista muito grande, poderemos obter lendidão.
+Quando inserimos um valor no início de uma lista, todos os outros valores, são movidos para a direita -> para abrir espaço, e se removemos, todos são movidos para a esquerda <- para ocupar o espaço. Não teremos problemas caso a lista contenha poucos valores, porém, se fizermos isso em uma lista muito grande, poderemos obter lendidão.
 
 
 ## Classe collections.deque
 
-Para resolver este problema de inserção de valores no início de uma lista grande, existe a classe collections.deque do python, projetada para permitir aplicar appends de ambos os lados de uma lista de forma rápida. Vamos veer como essa classe funciona:
+Para resolver esse problema e podemos inserir, sem lentidão,  valores em listas grandes, existe a classe collections.deque do python, projetada para permitir aplicar appends de ambos os lados de uma lista de forma rápida. Vamos ver como essa classe funciona:
 
 
 
@@ -46,7 +46,7 @@ Agora, iremos comparar a eficiencia do método de lista **append**, com a do mé
 ```python
 # Lista MUITO grande
 big_list = [2, 3, 3, 7, 7, 7, 7, 7] * 200000
-print(f'A lista contêm {len(big_list) valores}')
+print(f'A lista contêm {len(big_list)} valores')
 ```
 Saída:
 
